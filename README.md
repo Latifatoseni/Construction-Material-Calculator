@@ -76,21 +76,21 @@ Built strictly adhering to core procedural programming fundamentals and Semester
   
 ---
 ## Project Walkthrough
-* **1. Parameter Input Collection and Data Validation**
+* **Parameter Input Collection and Data Validation**
 Prompts user inputs for unit prices, waste rates, and dimensional measurements while enforcing strict positive numerical boundaries via continuous while loops.
-* **2. Functional Calculation & Scope Implementation**
+* **Functional Calculation and Scope Implementation**
 Executes single-purpose modular functions for wall surface area, block requirements, cement bags, sand trips, and aggregate cost evaluations.
 
-* **3. Individual Project Execution**
+* **Individual Project Execution**
 Processes the baseline residential bungalow alongside the low-budget small office structure.
 
-* **4. Medium to Large Scale Processing**
+* **Medium to Large Scale Processing**
 Evaluates intermediate and large-scale public facilities including educational school structures and commercial shopping complexes.
 
-* **5. Multi-Story and Heavy Industrial Facilities**
+* **Multi-Story and Heavy Industrial Facilities**
 Calculates extensive material demands for multi-level residential duplexes and large-scale industrial warehouses.
 
-* **6. Comprehensive Executive Summary Report**
+* **Comprehensive Executive Summary Report**
 Compiles cumulative material quantities, financial investments, average expenditures, and priority distributions across all projects.
 ---
 
