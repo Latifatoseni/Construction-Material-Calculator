@@ -220,13 +220,10 @@ They include:
 * **Separation of Global and Local Scope**: Properly managing local variables inside functions prevents unintended namespace pollution and protects global accumulators.
 
 ## Future Improvements
-**Automated Batch Ingestion via Files**: Implement CSV and JSON file readers to import large architectural project schedules without manual console typing.
+* **Automated Batch Ingestion via Files**: Implement CSV and JSON file readers to import large architectural project schedules without manual console typing.
+* **Robust Exception Handling**: Incorporate structured try/except blocks to handle non-numeric inputs gracefully without program crashes.
+* **Expanded Material Catalog**: Extend functions to model structural reinforcement rebar, gravel aggregates, structural timber, and surface coatings.
 
-**Robust Exception Handling**: Incorporate structured try/except blocks to handle non-numeric inputs gracefully without program crashes.
-
-**Expanded Material Catalog**: Extend functions to model structural reinforcement rebar, gravel aggregates, structural timber, and surface coatings.
-
-**Graphical User Interface**: Build an interactive web dashboard using Streamlit or a desktop GUI with Tkinter for improved site supervisor usability.
 
 ## Author
 OSENI, Latifat Omolara
