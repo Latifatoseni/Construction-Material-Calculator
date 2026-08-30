@@ -1,10 +1,6 @@
 # Construction-Material-Calculator
 The software provides site supervisors, civil engineers, and project planning teams with an automated, rule-based computational system to estimate required structural materials, account for on-site wastage, compute line-item costs, and generate structured executive reports for residential, commercial, and industrial building projects.
 # Construction Material Calculator
-
-## Overview
-The **Construction Material Calculator** is an end-to-end Python application designed and implemented for **SmartBuild Construction**. The software provides site supervisors, civil engineers, and project planning teams with an automated, rule-based computational system to estimate required structural materials, account for on-site wastage, compute line-item costs, and generate structured executive reports for residential, commercial, and industrial building projects.
-
 ---
 
 ## Problem Statement
@@ -56,7 +52,7 @@ Built strictly adhering to core procedural programming fundamentals and Semester
   
 * **Controlled Infinite `while` Loops (`while True`)**: Managed continuous batch project ingestion sessions, allowing users to enter multiple projects until manually triggering a `break` command.
   
-* **Functions, Parameters & Arguments**: Architected dedicated, single-responsibility functions (`calculate_wall_area`, `calculate_blocks_required`, `calculate_cements_bags_required`, `calculate_sand_requirement`, `calculate_material_cost`, etc.) that accept explicit positional parameters.
+* **Functions, Parameters and Arguments**: Architected dedicated, single-responsibility functions (`calculate_wall_area`, `calculate_blocks_required`, `calculate_cements_bags_required`, `calculate_sand_requirement`, `calculate_material_cost`, etc.) that accept explicit positional parameters.
   
 * **Return Values**: Captured single values, calculated floats, and multi-variable tuples from modular functions to pass outputs into subsequent analytical steps.
   
@@ -77,7 +73,8 @@ Built strictly adhering to core procedural programming fundamentals and Semester
 * **Individual Performance Reporting**: A formatted performance summary is printed to the console detailing technical specifications, itemized quantities, costs, and data validity for the individual project.
 
 * **Portfolio Aggregation and Summary Generation**: A for loop aggregates data from all submitted projects, generating an executive summary with totals, averages, and distribution counts.
-
+  
+---
 ## Project Walkthrough
 * **1. Parameter Input Collection and Data Validation**
 Prompts user inputs for unit prices, waste rates, and dimensional measurements while enforcing strict positive numerical boundaries via continuous while loops.
@@ -95,6 +92,7 @@ Calculates extensive material demands for multi-level residential duplexes and l
 
 * **6. Comprehensive Executive Summary Report**
 Compiles cumulative material quantities, financial investments, average expenditures, and priority distributions across all projects.
+---
 
 ## Program Pictures
 ![Parameter Input Collection](Program_1.png)
@@ -116,6 +114,7 @@ Compiles cumulative material quantities, financial investments, average expendit
 ![Parameter Input Collection](output_4.png)
 ![Parameter Input Collection](output_5.png)
 
+---
 ## Results
 **Project One Performance Breakdown**
 
@@ -207,11 +206,11 @@ Lowest Single Project Cost: ₦446,400 (Small Office Building)
 
 ## Key Findings
 They Include:
-**1. Scale Discrepancies Across Project Types**: Surface areas ranged from 36.0 m² (Small Office Building) to 400.0 m² (Industrial Warehouse), creating an eleven-fold difference in resource demand across projects.
+* **1. Scale Discrepancies Across Project Types**: Surface areas ranged from 36.0 m² (Small Office Building) to 400.0 m² (Industrial Warehouse), creating an eleven-fold difference in resource demand across projects.
 
-**2. Heavy Resource Concentration in Industrial Builds**: The Industrial Warehouse accounted for 4,200 blocks (nearly 40% of the entire 10,510 block portfolio demand) and ₦4,872,000 in material costs, making it the primary driver of procurement expenditure.
+* **2. Heavy Resource Concentration in Industrial Builds**: The Industrial Warehouse accounted for 4,200 blocks (nearly 40% of the entire 10,510 block portfolio demand) and ₦4,872,000 in material costs, making it the primary driver of procurement expenditure.
 
-**3. Procurement Urgency Allocation**: Only the Industrial Warehouse triggered the Urgent priority status (Wall Area > 100 m² and Cost > ₦3,000,000), signaling the immediate need for a dedicated material procurement pipeline, whereas three projects required scheduled procurement planning and two operated on baseline tracking.
+* **3. Procurement Urgency Allocation**: Only the Industrial Warehouse triggered the Urgent priority status (Wall Area > 100 m² and Cost > ₦3,000,000), signaling the immediate need for a dedicated material procurement pipeline, whereas three projects required scheduled procurement planning and two operated on baseline tracking.
 
 ## Key Learnings
 They include:
@@ -230,6 +229,6 @@ They include:
 **4. Graphical User Interface**: Build an interactive web dashboard using Streamlit or a desktop GUI with Tkinter for improved site supervisor usability.
 
 ## Author
-Oseni, Latifat Omolara
+OSENI, Latifat Omolara
 
 
