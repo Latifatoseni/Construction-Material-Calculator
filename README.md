@@ -206,11 +206,11 @@ Lowest Single Project Cost: ₦446,400 (Small Office Building)
 
 ## Key Findings
 They Include:
-* **1. Scale Discrepancies Across Project Types**: Surface areas ranged from 36.0 m² (Small Office Building) to 400.0 m² (Industrial Warehouse), creating an eleven-fold difference in resource demand across projects.
+* **Scale Discrepancies Across Project Types**: Surface areas ranged from 36.0 m² (Small Office Building) to 400.0 m² (Industrial Warehouse), creating an eleven-fold difference in resource demand across projects.
 
-* **2. Heavy Resource Concentration in Industrial Builds**: The Industrial Warehouse accounted for 4,200 blocks (nearly 40% of the entire 10,510 block portfolio demand) and ₦4,872,000 in material costs, making it the primary driver of procurement expenditure.
+* **Heavy Resource Concentration in Industrial Builds**: The Industrial Warehouse accounted for 4,200 blocks (nearly 40% of the entire 10,510 block portfolio demand) and ₦4,872,000 in material costs, making it the primary driver of procurement expenditure.
 
-* **3. Procurement Urgency Allocation**: Only the Industrial Warehouse triggered the Urgent priority status (Wall Area > 100 m² and Cost > ₦3,000,000), signaling the immediate need for a dedicated material procurement pipeline, whereas three projects required scheduled procurement planning and two operated on baseline tracking.
+* **Procurement Urgency Allocation**: Only the Industrial Warehouse triggered the Urgent priority status (Wall Area > 100 m² and Cost > ₦3,000,000), signaling the immediate need for a dedicated material procurement pipeline, whereas three projects required scheduled procurement planning and two operated on baseline tracking.
 
 ## Key Learnings
 They include:
@@ -220,13 +220,13 @@ They include:
 * **Separation of Global and Local Scope**: Properly managing local variables inside functions prevents unintended namespace pollution and protects global accumulators.
 
 ## Future Improvements
-**1. Automated Batch Ingestion via Files**: Implement CSV and JSON file readers to import large architectural project schedules without manual console typing.
+**Automated Batch Ingestion via Files**: Implement CSV and JSON file readers to import large architectural project schedules without manual console typing.
 
-**2. Robust Exception Handling**: Incorporate structured try/except blocks to handle non-numeric inputs gracefully without program crashes.
+**Robust Exception Handling**: Incorporate structured try/except blocks to handle non-numeric inputs gracefully without program crashes.
 
-**3. Expanded Material Catalog**: Extend functions to model structural reinforcement rebar, gravel aggregates, structural timber, and surface coatings.
+**Expanded Material Catalog**: Extend functions to model structural reinforcement rebar, gravel aggregates, structural timber, and surface coatings.
 
-**4. Graphical User Interface**: Build an interactive web dashboard using Streamlit or a desktop GUI with Tkinter for improved site supervisor usability.
+**Graphical User Interface**: Build an interactive web dashboard using Streamlit or a desktop GUI with Tkinter for improved site supervisor usability.
 
 ## Author
 OSENI, Latifat Omolara
